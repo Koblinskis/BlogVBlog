@@ -1,4 +1,5 @@
 [Play Blog V Blog here!](https://competent-thompson-123cfb.netlify.com/)
+
 Related repos: [Client](https://github.com/Koblinskis/BlogVBlog-client), [Server](https://github.com/Koblinskis/BlogVBlog-server), [MongoDB](https://github.com/Koblinskis/BlogVBlog-mongo)
 # Blog V Blog MongoData
 Blog V Blog is a web application that pits two blog titles against each other and the winner is determined by the user. The client is a React application that talks to an ExpressJS API backend, and the server reads and writes to a MongoDB Database. The server selects two random blogs titles from the database and returns them to the client, and then the user picks their favorite. The server records a winning score for the title selected. The highest scoring titles per category can be viewed on the winners page. 
